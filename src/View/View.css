@@ -1,0 +1,71 @@
+nav.view-nav {
+  /* background: #0c3694; */
+  color: white;
+  overflow: hidden;
+  padding: 0 15px;
+}
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+.nav-row{
+    overflow: hidden;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+nav ul {
+  margin: 0;
+  padding: 25px 0;
+}
+.address-search{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size: 19pt;
+    padding: 10px 5px;
+    max-width: 650px;
+    color: white;
+}
+.coin-token-row, .tc-row{
+  margin-bottom: 45px;
+}
+.address {
+  margin: 45px 0;
+}
+.luna-logo-container{
+    margin-bottom: 15px;
+}
+.luna-logo-container img{
+margin-right: 15px;
+vertical-align: middle;
+}
+.coin-list,.token-list {
+  padding: 0;
+}
+.coin-list li, .token-list li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.coin-img, .token-img {
+  width: 35px;
+  margin-right: 15px;
+}
+.coin-amount, .token-amount{
+    float: right;
+}
+.top-card-body{
+    max-height: 335px;
+    overflow-y: auto;
+}
+.table-card{
+  overflow-x: auto;
+}
+@media screen and (max-width: 767px) {
+  .coins{
+    margin-bottom:45px
+  }
+}

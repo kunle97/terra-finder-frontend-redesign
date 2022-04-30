@@ -1,20 +1,38 @@
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../public/img/bg1.gif");
-  background-size: cover;
+.title-contianer{
+  color: white;
+  width: 550px;
+  text-align: left;
+  margin: auto;
+  overflow-wrap: break-word;
+
 }
 .search-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/bg1.gif");
+  background-size: cover;
   height: 100vh;
   text-align: center;
   vertical-align: middle;
+  overflow: hidden;
 }
 .address-search{
     background: none;
     border: none;
     outline: none;
     border-bottom: 2px solid white;
-    font-size: 14pt;
+    font-size: 19pt;
     padding: 15px 5px;
-    width: 450px;
+    width: 550px;
     color: white;
+}
+::placeholder {
+  color: white;
+}
+@media screen and (max-width: 590px) {
+  .address-search,.title-contianer{
+    width: 100%;
+  }
+  .search-container-row{
+    padding: 15px;
+  }
 }
