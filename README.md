@@ -11,6 +11,14 @@ then type
 
 In the project directory, you can run:
 
+
+ENdpoints
+
+## `"/" - Homepage` 
+## `"/view" - View page to show adress details` 
+
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
