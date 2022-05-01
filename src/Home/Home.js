@@ -18,7 +18,7 @@ function Home() {
   //   URL: "http://lcd.terra.dev",
   //   chainID: "columbus-4",
   // });
-  //
+  //Jay Jog <jay@passportlabs.xyz>;
 
   const searchInput = useRef();
   const navigate = useNavigate();
